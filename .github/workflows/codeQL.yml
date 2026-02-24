@@ -27,4 +27,4 @@ jobs:
           packs: +scope/js-pack1,scope/js-pack2,scope/java-pack1,scope/java-pack2@v1.0.0
 
       - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v1
+        uses: github/codeql-action/analyze@v3
